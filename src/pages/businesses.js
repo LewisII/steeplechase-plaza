@@ -9,11 +9,12 @@ const businessesArray = [
     {name: "Zak's Barber Shop"},
     {name: "Cosmic Liquor"},
     {name: "Athletic Advantage"}];
+    
 const BusinessesPage = () => (
     <Layout>
         <SEO title="Businesses" />
         <h1>Business Directory</h1>
-        <DirectoryMap businesses={"Church Street Bar"}/>
+        <DirectoryMap businessesArray/>
     </Layout>
 )
 
