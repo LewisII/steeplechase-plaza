@@ -1,25 +1,26 @@
 import React from "react"
 import { Link } from "gatsby"
 
-const NavBar = () => {
-  /*const webLinks = [
+import "./navbar.css"
+
+  const webLinks = [
     { address: "/", title: "HomePage" },
     { address: "/businesses/", title: "Businesses" },
     { address: "/location/", title: "Where are we" },
   ]
-  */
+
+  const links = webLinks.map(site => {
+    return (
+          <li class="navLi" >
+            <Link to={site.address}>{site.title}</Link>
+          </li>
+    )})
+
+const NavBar = () => {
     return (
       <>
         <ul id="navBar" style={{ listStyleType: "none" }}>
-          <li style={{display: "inline" }}>
-            <Link to="/">Homepage</Link>
-          </li>
-          <li style={{ display: "inline" }}>
-            <Link to="/businesses/">Businesses</Link>
-          </li>
-          <li style={{ display: "inline" }}>
-            <Link to="/location/">Where are we</Link>
-          </li>
+          {links}
         </ul>
       </>
     )

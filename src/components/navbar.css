@@ -1,0 +1,17 @@
+
+.navLi{
+    display: inline;
+    color: rgb(46, 114, 122);
+    text-decoration-line: none;
+    border: 5px solid rgb(185, 177, 177);
+    }
+.navLi:hover{
+    color: black;
+    background-color: rgb(107, 107, 156);
+}
+.navLi:visited{
+    color: black;
+}
+.navLi:active{
+    background-color: aquamarine;
+}
