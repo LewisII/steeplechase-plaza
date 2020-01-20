@@ -12,7 +12,7 @@ import "./navbar.css"
   const links = webLinks.map(site => {
     return (
           <li class="navLi" >
-            <Link to={site.address}>{site.title}</Link>
+            <Link class="navLiLink" to={site.address}>{site.title}</Link>
           </li>
     )})
 

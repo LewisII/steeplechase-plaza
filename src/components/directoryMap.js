@@ -12,15 +12,13 @@ const businessesArray = [
     { name: "Cosmic Liquor", location: "421 S Church St, St Peters, MO 63376" },
     { name: "The Ink Spot", location: "419 S Church St, St Peters, MO 63376" }];
 
-const namesList = businessesArray.map(name => {
+const namesList = businessesArray.map(store => {
     return (
-        <li>{name.name}</li>
+        <li>{store.name} <br/> {store.location}</li>
     )
 })
 
 class DirectoryMap extends React.Component {
-    state = {}
-    
     render() {
     return (
     <ul>
