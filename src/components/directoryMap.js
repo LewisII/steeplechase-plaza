@@ -4,7 +4,7 @@ import React from "react"
 const businessesArray = [
     { name: "Church Street Bar", location: "435 S Church St, St Peters, MO 63376", 
         telephone: "(636)387-7778",
-        image_storeFront: "churchStreetBar_storeFront.jpg",
+        image_storeFront: "..\images\churchStreetBar\storeFront.jpg",
         info: "Neighborhood bar with cheap drink prices and live music on Fridays and Saturdays. Come play pool, Golden Tee and other games while you hangout and have a few cocktails." },
     { name: "Merry Maids", location: "433 S Church St, St Peters, MO 63376", telephone: "(636)235-2281" },
     { name: "Zak's Barber Shop", location: "431 S Church St, St Peters, MO 63376" },
@@ -18,7 +18,10 @@ const businessesArray = [
 
 const namesList = businessesArray.map(store => {
     return (
-        <li>{store.name} <br/> {store.location} <br />Phone number: {store.telephone}<br /> {store.info} </li>
+        <li>{store.name} <br /> {store.location} 
+        <br />Phone number: {store.telephone}<br /> 
+        {store.info} <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
+                <img src={store.image_storeFront} alt={"Store Front of " + store.name} height="42" width="42"/></div></li>
     )
 })
 
