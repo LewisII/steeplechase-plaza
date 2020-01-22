@@ -12,6 +12,7 @@ const DirectoryMap = (data) => {
                 Phone number: {store.telephone}
                 <br />
                 {store.info} <br />
+                <img src={store.name.image_storeFront} alt={store.name.image_storeFrontAltText}/>
               </li>
             )
           })}
