@@ -25,6 +25,6 @@ module.exports = {
         theme_color: `#663399`,
         display: `minimal-ui`,
       },
-    }
+    },
   ],
 }

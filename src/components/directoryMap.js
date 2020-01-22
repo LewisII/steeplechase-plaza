@@ -1,23 +1,21 @@
 import React from "react"
 
-const DirectoryMap = (data) => {
-    return (
-      <div>
-        <ul>
-          {data.store.map(store => {
-            return (
-              <li>
-                {store.name} <br /> {store.location}
-                <br />
-                Phone number: {store.telephone}
-                <br />
-                {store.info} <br />
-                <img src={store.name.image_storeFront} alt={store.name.image_storeFrontAltText}/>
-              </li>
-            )
-          })}
-        </ul>
-      </div>
-    )
+const DirectoryMap = data => {
+  return (
+    <div className="bussinessCard" width="250px">
+      {data.store.map(store => {
+        return (
+          <p>
+            {store.name} <br /> {store.location}
+            <br />
+            Phone number: {store.telephone}
+            <br />
+            {store.info}
+            <br />
+          </p>
+        )
+      })}
+    </div>
+  )
 }
- export default DirectoryMap
+export default DirectoryMap

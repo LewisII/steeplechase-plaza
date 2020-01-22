@@ -4,22 +4,20 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import DirectoryMap from "../components/directoryMap"
 
-
 const BusinessesPage = () => (
-    <Layout>
-        <SEO title="Businesses" />
-        <h1>Business Directory</h1>
-        <DirectoryMap store={businessesArray}/>
-    </Layout>
+  <Layout>
+    <SEO title="Businesses" />
+    <h1>Business Directory</h1>
+    <DirectoryMap store={businessesArray} />
+  </Layout>
 )
-
 
 const businessesArray = [
   {
     name: "Church Street Bar",
     location: "435 S Church St, St Peters, MO 63376",
     telephone: "(636)387-7778",
-    image_storeFront: "../images/churchStreetBar/storeFront.jpg",
+    image_storeFront: "../images/churchStreetBar-storeFront.jpg",
     image_storeFrontAltText: "Store Front of Church Street Bar",
     info:
       "Neighborhood bar with cheap drink prices and live music on Fridays and Saturdays. Come play pool, Golden Tee and other games while you hangout and have a few cocktails.",
@@ -62,5 +60,5 @@ const businessesArray = [
       "Tattoo & Body piercing establishment specializing in custom artwork & piercing by well trained, experience & dedicated artists",
   },
 ]
- 
+
 export default BusinessesPage
