@@ -28,13 +28,11 @@ const namesList = businessesArray.map(store => {
     )
 })
 
-class DirectoryMap extends React.Component {
-    render() {
+const DirectoryMap = (data) => {
     return (
-    <ul>
-        {namesList}
-    </ul>
-    );
-    }
+      <div>
+        <ul>{namesList}</ul>
+      </div>
+    )
 }
  export default DirectoryMap
