@@ -27,13 +27,14 @@ const businessesArray = [
     name: "Merry Maids",
     location: "433 S Church St, St Peters, MO 63376",
     telephone: "(636)235-2281",
-    info: "At Merry Maids, Our goal is to handle all of your cleaning-related needs and our maid service is desinged to make your life easier and free up the valuable time you'd otherwise spend cleaning. We offer weekly, bi-weekly and monthly service along with one time cleanings."
+    info:
+      "At Merry Maids, Our goal is to handle all of your cleaning-related needs and our maid service is desinged to make your life easier and free up the valuable time you'd otherwise spend cleaning. We offer weekly, bi-weekly and monthly service along with one time cleanings.",
   },
   {
     name: "Zak's Barber Shop",
     location: "431 S Church St, St Peters, MO 63376",
-    telephone:"(636) 448-2347",
-    website: "http://www.zaksbarbershop.com"
+    telephone: "(636) 448-2347",
+    website: "http://www.zaksbarbershop.com",
   },
   {
     name: "Under renovations",
@@ -56,16 +57,17 @@ const businessesArray = [
     telephone2: "(314)809-4534",
   },
   {
-    name: "Cosmic Liquor", 
+    name: "Cosmic Liquor",
     location: "421 S Church St, St Peters, MO 63376",
     googleMapsLink: "https://goo.gl/maps/yp5y1hBjUtRkb4py8",
-    telephone: "(636) 279-2929"
-   },
+    telephone: "(636) 279-2929",
+  },
   {
     name: "The Ink Spot",
     location: "419 S Church St, St Peters, MO 63376",
     telephone: "(636)387-0504",
-    info: "Tattoo & Body piercing establishment specializing in custom artwork & piercing by well trained, experience & dedicated artists",
+    info:
+      "Tattoo & Body piercing establishment specializing in custom artwork & piercing by well trained, experience & dedicated artists",
   },
 ]
 
