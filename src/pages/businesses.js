@@ -16,6 +16,7 @@ const businessesArray = [
   {
     name: "Church Street Bar",
     location: "435 S Church St, St Peters, MO 63376",
+    googleMapsLink: "https://g.page/church-street-bar?share",
     telephone: "(636)387-7778",
     image_storeFront: "../images/churchStreetBar-storeFront.jpg",
     image_storeFrontAltText: "Store Front of Church Street Bar",
@@ -31,6 +32,8 @@ const businessesArray = [
   {
     name: "Zak's Barber Shop",
     location: "431 S Church St, St Peters, MO 63376",
+    telephone:"(636) 448-2347",
+    website: "http://www.zaksbarbershop.com"
   },
   {
     name: "Under renovations",
@@ -40,7 +43,7 @@ const businessesArray = [
     name: "Sebastian Moving(St. Louis)",
     location: "427 S Church St, St Peters, MO 63376",
     telephone: "(636)515-9186",
-    website: "www.sebastianmovingstlouis.com",
+    website: "http://www.sebastianmovingstlouis.com",
   },
   {
     name: "Eye Candy Rentals",
@@ -52,13 +55,17 @@ const businessesArray = [
     telephone: "(636)734-7238",
     telephone2: "(314)809-4534",
   },
-  { name: "Cosmic Liquor", location: "421 S Church St, St Peters, MO 63376" },
+  {
+    name: "Cosmic Liquor", 
+    location: "421 S Church St, St Peters, MO 63376",
+    googleMapsLink: "https://goo.gl/maps/yp5y1hBjUtRkb4py8",
+    telephone: "(636) 279-2929"
+   },
   {
     name: "The Ink Spot",
     location: "419 S Church St, St Peters, MO 63376",
     telephone: "(636)387-0504",
-    info:
-      "Tattoo & Body piercing establishment specializing in custom artwork & piercing by well trained, experience & dedicated artists",
+    info: "Tattoo & Body piercing establishment specializing in custom artwork & piercing by well trained, experience & dedicated artists",
   },
 ]
 

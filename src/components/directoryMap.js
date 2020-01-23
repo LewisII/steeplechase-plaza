@@ -8,10 +8,10 @@ const DirectoryMap = data => {
         return (
           <div className="storeCard" width="50px">
             <p>
-              <h2> {store.name} </h2>
-              {store.location}
+              <h2> <a href={store.website}>{store.name}</a></h2>
+              <a href={store.googleMapsLink}>{store.location}</a>
               <br />
-              Phone number: {store.telephone}
+              Phone number: <a href={"tel:"+store.telephone}>{store.telephone}</a>
               <br />
               {store.info}
               <br />
