@@ -10,6 +10,7 @@ const LocationPage = () => (
     <SEO title="Page two" />
     <h1>Where we are Located</h1>
     <p>We are located at 435 S Church St, St Peters, MO 63376</p>
+    <p>The cross roads of Mexico road and S Church Street</p>
     <iframe
       title="iframe_googleMaps"
       src={gmapsurl}
