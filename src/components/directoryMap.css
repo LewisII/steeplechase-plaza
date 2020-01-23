@@ -1,0 +1,13 @@
+.storeCard {
+    width:350px;
+    
+  border: 1px solid black;
+  }
+
+  #directoryMap {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      
+    grid-gap: 1rem;
+  margin: 25px;
+  }
