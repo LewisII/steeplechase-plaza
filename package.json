@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "Custom-Gatsby-For-SteepleChase-Plaza",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "Website for SteepleChase-Plaza",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Lewis Amos <Lewamos2@gmail.com>",
   "dependencies": {
     "gatsby": "^2.18.12",
     "gatsby-image": "^2.2.34",
@@ -39,11 +39,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gatsbyjs/gatsby-starter-default.git"
+    "url": "https://github.com/LewisII/steeplechase-plaza"
   },
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/LewisII/steeplechase-plaza/issues"
   },
-  "homepage": "https://github.com/gatsbyjs/gatsby-starter-default#readme",
   "main": "gatsby-browser.js"
 }

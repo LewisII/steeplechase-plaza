@@ -1,6 +1,10 @@
 import React from "react"
 import "./directoryMap.css"
 
+
+const placeholder = "https://via.placeholder.com/1000"
+
+
 const DirectoryMap = data => {
   return (
     <div id="directoryMap">
@@ -20,7 +24,7 @@ const DirectoryMap = data => {
               {store.info}
               <br />
               <img
-                src="https://via.placeholder.com/1000"
+                src={placeholder}
                 alt="placeholder"
               ></img>
             </p>
