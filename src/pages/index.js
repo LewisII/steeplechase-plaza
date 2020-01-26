@@ -13,7 +13,7 @@ const IndexPage = () => (
       SteepleChase Plaza
     </p>
     <p>Located at 435 S Church St, St Peters, MO 63376</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
+    <div style={{ maxWidth: `1200px`, marginBottom: `1.45rem` }}>
       <Image />
     </div>
   </Layout>
