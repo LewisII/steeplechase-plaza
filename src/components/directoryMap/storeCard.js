@@ -6,7 +6,7 @@ class StoreCard extends React.Component {
         <p>
           <h2>
             {" "}
-            <a /*href={this.props.store.website}*/>{this.props.store.name}</a>
+            <a href={this.props.store.website}>{this.props.store.name}</a>
           </h2>
           <a href={this.props.store.googleMapsLink}>{this.props.store.location}</a>
           <br />
