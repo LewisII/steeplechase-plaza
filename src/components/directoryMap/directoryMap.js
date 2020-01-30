@@ -9,28 +9,10 @@ class DirectoryMap extends React.Component {
       {this.props.store.map(data => {
         if (data.status === "open") {
           return ( 
-            <div className="storeCard" width="50px">
-              <p>
-                <h2>
-                  {" "}
-                  <a href={data.website}>{data.name}</a>
-                </h2> <hr />
-                <a href={data.googleMapsLink}>{data.location}</a>
-                <br />
-                Phone number:{" "}
-                <a href={"tel:" + data.telephone}>{data.telephone}</a>
-                <br />
-                {data.info}
-                <br />
-                <img
-                  src={data.image_storeFront}
-                  alt={"Store Front of " + data.name}
-                />
-              </p>
-            </div>
+            <StoreCard store = {data} />
           )
         } else {
-          return <StoreCard store  = {data} />
+          return null
         }
       })}
     </div>
