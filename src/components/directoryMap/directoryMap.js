@@ -22,7 +22,7 @@ const DirectoryMap = data => {
                 <br />
                 <img
                   src={store.image_storeFront}
-                  alt={"Store Front of "+ store.name}
+                  alt={"Store Front of " + store.name}
                 />
               </p>
             </div>

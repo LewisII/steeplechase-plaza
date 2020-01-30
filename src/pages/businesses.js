@@ -39,7 +39,8 @@ const businessesArray = [
     location: "431 S Church St, St Peters, MO 63376",
     telephone: "(636) 448-2347",
     website: "http://www.zaksbarbershop.com",
-    image_storeFront: "../../images/zak'sBarberShop/zak'sBarberShop_storeFront.jpg",
+    image_storeFront:
+      "../../images/zak'sBarberShop/zak'sBarberShop_storeFront.jpg",
   },
   {
     name: "Under renovations",
@@ -52,7 +53,8 @@ const businessesArray = [
     location: "427 S Church St, St Peters, MO 63376",
     telephone: "(636)515-9186",
     website: "http://www.sebastianmovingstlouis.com",
-    image_storeFront: "../../images/sebastianMoving/sebastianMoving_storeFront.jpg",
+    image_storeFront:
+      "../../images/sebastianMoving/sebastianMoving_storeFront.jpg",
   },
   {
     name: "Eye Candy Rentals",
@@ -65,7 +67,8 @@ const businessesArray = [
     name: "Covenant Garage Door Co.",
     status: "open",
     location: "423 S Church St, St Peters, MO 63376",
-    image_storeFront: "../../images/covenantGarageDoorCo/covenantGarageDoorCo_storeFront.jpg",
+    image_storeFront:
+      "../../images/covenantGarageDoorCo/covenantGarageDoorCo_storeFront.jpg",
     telephone: "(636)734-7238",
     telephone2: "(314)809-4534",
   },
