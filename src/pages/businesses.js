@@ -60,8 +60,11 @@ const businessesArray = [
     name: "Eye Candy Rentals",
     status: "open",
     location: "425 S Church St, St Peters, MO 63376",
+    telephone: "(314)952-0108",
+    website: "http://www.eyecandyrentals.com",
     image_storeFront:
       "../../images/eyeCandyRentals/eyeCandyRentals_storeFront.jpg",
+    info: "Photography rental studio complete with complimentary sets and props",
   },
   {
     name: "Covenant Garage Door Co.",
