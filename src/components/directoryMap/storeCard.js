@@ -6,18 +6,18 @@ class StoreCard extends React.Component {
         <p>
           <h2>
             {" "}
-            <a href={this.props.website}>{this.props.name}</a>
+            <a /*href={this.props.store.website}*/>{this.props.store.name}</a>
           </h2>
-          <a href={this.props.googleMapsLink}>{this.props.location}</a>
+          <a href={this.props.store.googleMapsLink}>{this.props.store.location}</a>
           <br />
           Phone number:{" "}
-          <a href={"tel:" + this.props.telephone}>{this.props.telephone}</a>
+          <a href={"tel:" + this.props.store.telephone}>{this.props.store.telephone}</a>
           <br />
-          {this.props.info}
+          {this.props.store.info}
           <br />
           <img
-            src={this.props.image_storeFront}
-            alt={"Store Front of " + this.props.name}
+            src={this.props.store.image_storeFront}
+            alt={"Store Front of " + this.props.store.name}
           />
         </p>
       </div>
