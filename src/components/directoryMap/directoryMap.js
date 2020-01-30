@@ -1,38 +1,40 @@
 import React from "react"
 import "./directoryMap.css"
+import StoreCard from "./storeCard"
 
-const DirectoryMap = data => {
+class DirectoryMap extends React.Component {
+  render(){
   return (
     <div id="directoryMap">
-      {data.store.map(store => {
-        if (store.status === "open") {
-          return (
+      {this.props.store.map(data => {
+        if (data.status === "open") {
+          return ( 
             <div className="storeCard" width="50px">
               <p>
                 <h2>
                   {" "}
-                  <a href={store.website}>{store.name}</a>
-                </h2>
-                <a href={store.googleMapsLink}>{store.location}</a>
+                  <a href={data.website}>{data.name}</a>
+                </h2> <hr />
+                <a href={data.googleMapsLink}>{data.location}</a>
                 <br />
                 Phone number:{" "}
-                <a href={"tel:" + store.telephone}>{store.telephone}</a>
+                <a href={"tel:" + data.telephone}>{data.telephone}</a>
                 <br />
-                {store.info}
+                {data.info}
                 <br />
                 <img
-                  src={store.image_storeFront}
-                  alt={"Store Front of " + store.name}
+                  src={data.image_storeFront}
+                  alt={"Store Front of " + data.name}
                 />
               </p>
             </div>
           )
         } else {
-          return null
+          return <StoreCard store  = {data} />
         }
       })}
     </div>
   )
 }
-
+}
 export default DirectoryMap
