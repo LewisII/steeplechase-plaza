@@ -19,7 +19,8 @@ const businessesArray = [
     location: "435 S Church St, St Peters, MO 63376",
     googleMapsLink: "https://g.page/church-street-bar?share",
     telephone: "(636)387-7778",
-    image_storeFront: "../../images/churchStreetBar/churchStreetBar-storeFront.jpg",
+    image_storeFront:
+      "../../images/churchStreetBar/churchStreetBar-storeFront.jpg",
     image_storeFrontAltText: "Store Front of Church Street Bar",
     info:
       "Neighborhood bar with cheap drink prices and live music on Fridays and Saturdays. Come play pool, Golden Tee and other games while you hangout and have a few cocktails.",
@@ -59,7 +60,8 @@ const businessesArray = [
     name: "Eye Candy Rentals",
     status: "open",
     location: "425 S Church St, St Peters, MO 63376",
-    image_storeFront: "../../images/eyeCandyRentals/eyeCandyRentals_storeFront.jpg",
+    image_storeFront:
+      "../../images/eyeCandyRentals/eyeCandyRentals_storeFront.jpg",
   },
   {
     name: "Covenant Garage Door Co.",

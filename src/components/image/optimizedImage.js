@@ -1,6 +1,3 @@
-
-
-
 export const optimizedImage = graphql`
   fragment squareImage on File {
     childImageSharp {
