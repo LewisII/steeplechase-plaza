@@ -6,7 +6,7 @@ import SEO from "src/components/seo"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
+    <SEO title="Home"/>
     <h1>SteepleChase Plaza</h1>
     <p>
       We are your solution for quick access to businesses located at

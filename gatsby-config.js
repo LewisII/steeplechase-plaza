@@ -1,7 +1,11 @@
 module.exports = {
   siteMetadata: {
     title: `SteepleChase Plaza`,
-    description: `Shopping mall located at <>S Church St, St Peters, MO 63376<>`,
+    description: `Shopping mall located at 435S Church St, St Peters, MO 63376`,
+    meta: `charSet="utf-8"`,
+    meta: `name="twitter:card" content="Simple Solution for quick access and info for bussinesses and events at SteepleChase Plaza 435S Church St, St Peters, MO 63376"`,
+    meta: `name="robots" content="noindex, nofollow"`,
+    link: `rel="canonical" href="https://www.steeplechaseplaza.com/"`,
     author: `@Lewis_Amos`,
   },
   plugins: [
