@@ -6,6 +6,7 @@ module.exports = {
     meta: `name="twitter:card" content="Simple Solution for quick access and info for bussinesses and events at SteepleChase Plaza 435S Church St, St Peters, MO 63376"`,
     meta: `name="robots" content="noindex, nofollow"`,
     link: `rel="canonical" href="https://www.steeplechaseplaza.com/"`,
+    meta: `name="viewport" content="width=device-width, initial-scale=1"`,
     author: `@Lewis_Amos`,
   },
   plugins: [
