@@ -14,15 +14,10 @@ collections:
       - {label: "Layout", name: "layout", widget: "hidden", default: "businessesData"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Store", name: "store", allow_add: true, widget: object,
-        fields:
-        - {label: "Status", name: "status", widget: "boolean"}
-        - {label: "Location", name: "status", widget: "string"}
-        - {label: "Maps Link", name: "status", widget: "string"}
-        - {label: "Store Front", name: "store front image", widget: "image"}
-        - {label: "Telephone", name: "telephone", widget: "string"}
-        - {label: "Website", name: "website", widget: "string"}
-        - {label: "Info", name: "Info", widget: "string"}
+      - label: "Gallery"
+        name: "galleryImages"
+        widget: "list"
+        field: {label: Image, name: image, widget: image}
       }
   - name: "blog" # Used in routes, e.g., /admin/collections/blog
     label: "Blog" # Used in the UI
