@@ -3,20 +3,18 @@ import "./directoryMap.css"
 import StoreCard from "./storeCard"
 
 class DirectoryMap extends React.Component {
-  render(){
-  return (
-    <div id="directoryMap">
-      {this.props.store.map(data => {
-        if (data.status === "open") {
-          return ( 
-            <StoreCard store = {data} />
-          )
-        } else {
-          return null
-        }
-      })}
-    </div>
-  )
-}
+  render() {
+    return (
+      <div id="directoryMap">
+        {this.props.store.map(data => {
+          if (data.status === "open") {
+            return <StoreCard store={data} />
+          } else {
+            return null
+          }
+        })}
+      </div>
+    )
+  }
 }
 export default DirectoryMap

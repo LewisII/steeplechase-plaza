@@ -64,7 +64,8 @@ const businessesArray = [
     website: "http://www.eyecandyrentals.com",
     image_storeFront:
       "../../images/eyeCandyRentals/eyeCandyRentals_storeFront.jpg",
-    info: "Photography rental studio complete with complimentary sets and props",
+    info:
+      "Photography rental studio complete with complimentary sets and props",
   },
   {
     name: "Covenant Garage Door Co.",
