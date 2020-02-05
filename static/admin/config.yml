@@ -22,11 +22,11 @@ collections:
           - {label: store, name: store, widget: "string"}
           - {label: status, name: status, widget: "boolean"}
           - {label: location, name: location, widget: "string" }
-          - {label: maps link, name: googleMapsLink, widget: "string" required: false}
-          - {label: telephone, name: telephone, widget: "string" required: false}
-          - {label: website, name: website, widget: "string" required: false}
-          - {label: storefront, name: storeFrontImage, widget: "image" required: false}
-          - {label: info, name: info, widget: "string" required: false}
+          - {label: maps link, name: googleMapsLink, widget: "string", required: false}
+          - {label: telephone, name: telephone, widget: "string", required: false}
+          - {label: website, name: website, widget: "string", required: false}
+          - {label: storefront, name: storeFrontImage, widget: "image", required: false}
+          - {label: info, name: info, widget: "string", required: false}
   - name: "blog" # Used in routes, e.g., /admin/collections/blog
     label: "Blog" # Used in the UI
     folder: "_posts/blog" # The path to the folder where the documents are stored
