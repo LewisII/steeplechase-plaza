@@ -16,7 +16,7 @@ collections:
           - {label: "Layout", name: "layout", widget: "hidden", default: "businessData"}
           - {label: title, name: title, widget: "string"}
           - {label: store, name: store, widget: "string"}
-          - {label: status, name: status, widget: "boolean", required: false}
+          - {label: status, name: status, widget: "boolean"}
           - {label: location, name: location, widget: "string" }
           - {label: maps link, name: googleMapsLink, widget: "string", required: false}
           - {label: telephone, name: telephone, widget: "string", required: false}
