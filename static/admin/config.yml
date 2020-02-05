@@ -14,7 +14,7 @@ collections:
       - {label: "Layout", name: "layout", widget: "hidden", default: "businessesData"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Store", name: "store", widget: "string", allow_add: "true"}
+      - {label: "Store", name: "store", widget: "string", allow_add: true}
 
   - name: "blog" # Used in routes, e.g., /admin/collections/blog
     label: "Blog" # Used in the UI
