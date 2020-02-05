@@ -14,8 +14,8 @@ collections:
       - {label: "Layout", name: "layout", widget: "hidden", default: "businessesData"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Store", name: "store", widget: "list", allow_add: true,
-      fields:
+      - {label: "Store", name: "store", allow_add: true, widget: object,
+        fields:
         - {label: "Status", name: "status", widget: "boolean"}
         - {label: "Location", name: "status", widget: "string"}
         - {label: "Maps Link", name: "status", widget: "string"}
