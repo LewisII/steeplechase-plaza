@@ -15,8 +15,9 @@ collections:
       - label: "Business"
         name: "business"
         widget: "list"
-        fields: {label: store, name: store, widget: "string"},
-                {label: status, name: status, widget: "boolean"}
+        fields: 
+          - {label: store, name: store, widget: "string"}
+          - {label: status, name: status, widget: "boolean"}
   - name: "blog" # Used in routes, e.g., /admin/collections/blog
     label: "Blog" # Used in the UI
     folder: "_posts/blog" # The path to the folder where the documents are stored
