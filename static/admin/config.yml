@@ -18,10 +18,10 @@ collections:
         fields: 
           - {label: store, name: store, widget: "string"}
           - {label: status, name: status, widget: "boolean"}
-          - {label: location, name: store, widget: "string"}
-          - {label: maps link, name: store, widget: "string"}
-          - {label: telephone, name: store, widget: "string"}
-          - {label: website, name: store, widget: "string"}
+          - {label: location, name: location, widget: "string"}
+          - {label: maps link, name: googleMapsLink, widget: "string"}
+          - {label: telephone, name: telephone, widget: "string"}
+          - {label: website, name: website, widget: "string"}
           - {label: storefront, name: storeFrontImage, widget: "image"}
           - {label: info, name: info, widget: "string"}
   - name: "blog" # Used in routes, e.g., /admin/collections/blog
