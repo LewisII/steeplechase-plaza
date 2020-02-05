@@ -18,7 +18,6 @@ collections:
         name: "galleryImages"
         widget: "list"
         field: {label: Image, name: image, widget: image}
-      }
   - name: "blog" # Used in routes, e.g., /admin/collections/blog
     label: "Blog" # Used in the UI
     folder: "_posts/blog" # The path to the folder where the documents are stored
