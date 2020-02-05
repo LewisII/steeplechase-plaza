@@ -14,8 +14,8 @@ collections:
       - {label: "Layout", name: "layout", widget: "hidden", default: "businessesData"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Store", name: "store", widget: "list", allow_add: true
       fields:
-        - {label: "Store", name: "store", widget: "string", allow_add: true}
         - {label: "Status", name: "status", widget: "boolean"}
         - {label: "Location", name: "status", widget: "string"}
         - {label: "Maps Link", name: "status", widget: "string"}
@@ -23,7 +23,7 @@ collections:
         - {label: "Telephone", name: "telephone", widget: "string"}
         - {label: "Website", name: "website", widget: "string"}
         - {label: "Info", name: "Info", widget: "string"}
-
+      }
   - name: "blog" # Used in routes, e.g., /admin/collections/blog
     label: "Blog" # Used in the UI
     folder: "_posts/blog" # The path to the folder where the documents are stored
