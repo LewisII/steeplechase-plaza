@@ -12,11 +12,11 @@ collections:
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
       - {label: "Layout", name: "layout", widget: "hidden", default: "businessesData"}
-      - {label: "Title", name: "title", widget: "string"}
-      - label: "Business List"
-        name: "businessList"
+      - label: "Business"
+        name: "business"
         widget: "list"
-        field: {label: store, name: store, widget: "string"}
+        fields: {label: store, name: store, widget: "string"}
+                {label: status, name: status, widget: "boolean"}
   - name: "blog" # Used in routes, e.g., /admin/collections/blog
     label: "Blog" # Used in the UI
     folder: "_posts/blog" # The path to the folder where the documents are stored
