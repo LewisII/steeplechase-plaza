@@ -3,8 +3,8 @@ layout: businessData
 title: church street
 store: church Street
 status: true
-location: '435 S Church St, St Peters, MO 63376'
-googleMapsLink: 'https://g.page/church-street-bar?share'
+location: "435 S Church St, St Peters, MO 63376"
+googleMapsLink: "https://g.page/church-street-bar?share"
 telephone: (636)387-7778
 storeFrontImage: static/images/churchStreetBar_storeFront.jpg
 info: >-
@@ -12,4 +12,3 @@ info: >-
   Saturdays. Come play pool, Golden Tee and other games while you hangout and
   have a few cocktails.
 ---
-

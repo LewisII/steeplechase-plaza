@@ -3,7 +3,7 @@ layout: businessData
 title: Merry Maids
 store: Merry Maids
 status: true
-location: '433 S Church St, St Peters, MO 63376'
+location: "433 S Church St, St Peters, MO 63376"
 telephone: (636)235-2281
 storeFrontImage: static/images/merryMaids_storeFront.jpg
 info: >-
@@ -12,4 +12,3 @@ info: >-
   time you'd otherwise spend cleaning. We offer weekly, bi-weekly and monthly
   service along with one time cleanings.
 ---
-
