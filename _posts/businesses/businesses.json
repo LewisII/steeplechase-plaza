@@ -1,0 +1,81 @@
+{{
+  "layout": "businessData",
+  "title": "church street",
+  "store": "church Street",
+  "status": true,
+  "location": "435 S Church St, St Peters, MO 63376",
+  "googleMapsLink": "https://g.page/church-street-bar?share",
+  "telephone": "(636)387-7778",
+  "storeFrontImage": "static/images/churchStreetBar_storeFront.jpg",
+  "info": "Neighborhood bar with cheap drink prices and live music on Fridays and Saturdays. Come play pool, Golden Tee and other games while you hangout and have a few cocktails."
+},
+{
+    "layout": "businessData",
+    "store": "Cosmic Liquor",
+    "status": true,
+    "location": "421 S Church St, St Peters, MO 63376",
+    "googleMapsLink": "https://goo.gl/maps/yp5y1hBjUtRkb4py8",
+    "telephone": "(636) 279-2929",
+    "storeFrontImage": "static/images/cosmicLiquor_storeFront.jpg"
+  },
+  {
+    "layout": "businessData",
+    "store": "Covenant Garage Door Co.",
+    "status": true,
+    "location": "423 S Church St, St Peters, MO 63376",
+    "telephone": "(636)734-7238",
+    "storeFrontImage": "static/images/covenantGarageDoorCo_storeFront.jpg"
+  },
+  {
+    "layout": "businessData",
+    "store": "Eye Candy Rentals",
+    "status": true,
+    "location": "425 S Church St, St Peters, MO 63376",
+    "telephone": "(314)952-0108",
+    "website": "http://www.eyecandyrentals.com",
+    "storeFrontImage": "static/images/eyeCandyRentals_storeFront.jpg",
+    "info": "Photography rental studio complete with complimentary sets and props"
+  },
+  {
+    "layout": "businessData",
+    "store": "Merry Maids",
+    "status": true,
+    "location": "433 S Church St, St Peters, MO 63376",
+    "telephone": "(636)235-2281",
+    "storeFrontImage": "static/images/merryMaids_storeFront.jpg",
+    "info": "At Merry Maids, Our goal is to handle all of your cleaning-related needs and our maid service is desinged to make your life easier and free up the valuable time you'd otherwise spend cleaning. We offer weekly, bi-weekly and monthly service along with one time cleanings."
+  },
+  {
+    "layout": "businessData",
+    "store": "Sebastian Moving(St. Louis)",
+    "status": true,
+    "location": "427 S Church St, St Peters, MO 63376",
+    "telephone": "(636)515-9186",
+    "website": "http://www.sebastianmovingstlouis.com",
+    "storeFrontImage": "static/images/sebastianMoving_storeFront.jpg"
+  },
+  {
+    "layout": "businessData",
+    "store": "The Ink Spot",
+    "status": true,
+    "location": "419 S Church St, St Peters, MO 63376",
+    "telephone": "(636)387-0504",
+    "storeFrontImage": "static/images/inkSpot_storeFront.jpg",
+    "info": "Tattoo & Body piercing establishment specializing in custom artwork & piercing by well trained, experience & dedicated artists"
+  },
+  {
+    "layout": "businessData",
+    "store": "Under renovations",
+    "status": false,
+    "location": "429 S Church St, St Peters, MO 63376"
+  },{
+      "layout": "businessData",
+      "store": "Zak's Barber Shop",
+      "status": true,
+      "location": "431 S Church St, St Peters, MO 63376",
+      "telephone": "(636) 448-2347",
+      "website": "http://www.zaksbarbershop.com",
+      "storeFrontImage": "static/images/zak'sBarberShop_storeFront.jpg"
+    }
+
+}

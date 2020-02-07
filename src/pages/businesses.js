@@ -12,6 +12,7 @@ const BusinessesPage = () => (
   </Layout>
 )
 
+console.log(businessesArray2);
 const businessesArray = [
   {
     name: "Church Street Bar",
