@@ -17,8 +17,7 @@ collections:
     extension: json
     fields: # The fields for each document, usually in front matter
           - {label: "Layout", name: "layout", widget: "hidden", default: "businessData"}
-          - {label: title, name: title, widget: "string"}
-          - {label: store, name: store, widget: "string"}
+          - {label: store, name: store, widget: "string"} #store name is also title
           - {label: status, name: status, widget: "boolean"}
           - {label: location, name: location, widget: "string" }
           - {label: maps link, name: googleMapsLink, widget: "string", required: false}
