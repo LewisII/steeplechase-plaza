@@ -25,9 +25,9 @@ collections:
       - {label: Website, name: website, widget: "string", required: false}
       - {label: Storefront image, name: storeFrontImage, widget: "image", required: false}
       - label: "Gallery"
-          name: "galleryImages"
-          widget: "list"
-          field: {label: Image, name: image, widget: image}
+        name: "galleryImages"
+        widget: "list"
+        field: {label: Image, name: image, widget: image}
       - {label: info, name: info, widget: "string", required: false}
   - name: "businesses"        
     label: "BusinessList" # Used in the UI
