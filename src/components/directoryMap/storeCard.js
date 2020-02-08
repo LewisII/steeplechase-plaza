@@ -3,27 +3,29 @@ import "./storeCard.css"
 
 class StoreCard extends React.Component {
   render() {
+    var data = this.props.store;
+    var imagestr = "../../images/" + data.storeFrontImage.split("/")[2];
     return (
       <div className="storeTile">
         <p>
-          <h2>{this.props.store.name}</h2>
+          <h2>{data.store}</h2>
           <hr />
-          <a href={this.props.store.googleMapsLink}>
-            {this.props.store.location}
+          <a href={data.googleMapsLink}>
+            {data.location}
           </a>
           <br />
           Phone number:{" "}
-          <a href={"tel:" + this.props.store.telephone}>
-            {this.props.store.telephone}
+          <a href={"tel:" + data.telephone}>
+            {data.telephone}
           </a>
           <br />
-          <a href={this.props.store.website}>{this.props.store.website}</a>
+          <a href={data.website}>{data.website}</a>
           <br />
-          {this.props.store.info}
+          {data.info}
           <br />
           <img
-            src={this.props.store.image_storeFront}
-            alt={"Store Front of " + this.props.store.name}
+            src={imagestr}
+            alt={"Store Front of " + data.store}
             className="cardImage"
           />
         </p>

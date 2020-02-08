@@ -7,7 +7,7 @@ class DirectoryMap extends React.Component {
     return (
       <div id="directoryMap">
         {this.props.store.map(data => {
-          if (data.status === "open") {
+          if (data.status) {
             return <StoreCard store={data} />
           } else {
             return null
