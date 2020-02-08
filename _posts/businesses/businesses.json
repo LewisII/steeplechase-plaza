@@ -1,6 +1,6 @@
 {
   "business": {
-  "layout": "businessData",
+  "layout": "businessDataList",
   "store": "church Street",
   "status": true,
   "location": "435 S Church St, St Peters, MO 63376",
