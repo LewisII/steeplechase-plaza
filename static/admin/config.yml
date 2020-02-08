@@ -16,8 +16,10 @@ collections:
     identifier_field: title
     extension: json
     fields: 
-     - {label: title, name: title, widget: "Business List"} #store name is also title
-      fields: # The fields for each document, usually in front matter
+     -  label: title
+        name: title
+        widget: "list"
+        fields: # The fields for each document, usually in front matter
           - {label: "Layout", name: "layout", widget: "hidden", default: "businessData"}
           - {label: store, name: store, widget: "string"}
           - {label: status, name: status, widget: "boolean"}
