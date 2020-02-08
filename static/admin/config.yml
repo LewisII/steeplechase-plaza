@@ -25,7 +25,7 @@ collections:
           - {label: website, name: website, widget: "string", required: false}
           - {label: storefront, name: storeFrontImage, widget: "image", required: false}
           - {label: info, name: info, widget: "string", required: false}
-            - name: "business"
+          
     label: "BusinessList" # Used in the UI
     folder: "_posts/businesses" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
