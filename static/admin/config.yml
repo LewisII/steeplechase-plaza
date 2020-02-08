@@ -13,6 +13,23 @@ collections:
     folder: "_posts/businesses" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    identifier_field: name
+    extension: json
+    fields: 
+          - {label: "Layout", name: "layout", widget: "hidden", default: "businessData"}
+          - {label: store, name: store, widget: "string"}
+          - {label: status, name: status, widget: "boolean"}
+          - {label: location, name: location, widget: "string" }
+          - {label: maps link, name: googleMapsLink, widget: "string", required: false}
+          - {label: telephone, name: telephone, widget: "string", required: false}
+          - {label: website, name: website, widget: "string", required: false}
+          - {label: storefront, name: storeFrontImage, widget: "image", required: false}
+          - {label: info, name: info, widget: "string", required: false}
+            - name: "business"
+    label: "BusinessList" # Used in the UI
+    folder: "_posts/businesses" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     identifier_field: title
     extension: json
     fields: 
