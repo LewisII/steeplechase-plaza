@@ -1,0 +1,39 @@
+
+#body {
+    display: grid;
+    grid-template-areas: 
+        'main main store'
+        'main main seeMoreStores'
+        'promos promos coupons';
+}
+#img-main{
+    height: 250px;
+}
+.main{
+     grid-area: main;
+     border: 1px black solid;
+}
+.store{
+    height: 50px;
+}
+#seeMore{
+    height: 250px;
+    background-color: blue;
+    grid-area: seeMoreStores;
+    justify-content: center;
+}
+.links{
+    text-align: center;
+    text-decoration-style: none;
+    color: aliceblue;
+}
+#promos{
+    grid-area: promos;
+    height: 250px;
+    background-color: red;
+}
+#coupons{
+    grid-area: coupons;
+    height: 250px;
+    background-color: green;
+}
