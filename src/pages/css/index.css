@@ -1,6 +1,8 @@
 
 .body {
     display: grid;
+    background-color: lightblue;
+    grid-template-columns: 25% 25% 25% 25%;
     grid-template-areas: 
         'main main main store'
         'main main main seeMoreStores'
@@ -16,9 +18,6 @@
   .card {
       width: 85vw;
   }
-}
-#img-main{
-    height: 250px;
 }
 .main{
      grid-area: main;
@@ -37,6 +36,10 @@
 }
 .links:hover {
     color: black;
+}
+.store {
+    grid-area: store;
+    width: auto;
 }
 #promos{
     grid-area: promos;
