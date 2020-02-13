@@ -6,6 +6,17 @@
         'main main main seeMoreStores'
         'promos promos coupons coupons';
 }
+@media only screen and (max-width: 1000px) {
+    /* Tablet and Smaller */
+  .body {    
+  display: flex;
+  flex-direction: column;
+    background-color: lightblue;
+  }
+  .card {
+      width: 85vw;
+  }
+}
 #img-main{
     height: 250px;
 }

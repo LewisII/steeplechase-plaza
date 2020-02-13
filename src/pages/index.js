@@ -22,7 +22,7 @@ const IndexPage = () => (
         <p>435 S Church St, St Peters, MO 63376</p>
         <Image id="img-Main" />
       </div>
-      <DirectoryMap class="store" store={[data1]} />
+      <DirectoryMap className="store" className="card" store={[data1]} />
       <div id="seeMore" className="card">
         <Link className="links" id="seeMoreLink" to="/businesses/">
           See More businesses
