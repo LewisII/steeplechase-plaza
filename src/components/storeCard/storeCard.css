@@ -1,7 +1,7 @@
 .cardImage { 
     display: flex;
     justify-content: center;
-    width: 200px;
+    width: 95%;
     height: auto;
 }
 .storeTile{
