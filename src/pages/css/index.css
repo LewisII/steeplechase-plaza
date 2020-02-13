@@ -1,10 +1,10 @@
 
-#body {
+.body {
     display: grid;
     grid-template-areas: 
-        'main main store'
-        'main main seeMoreStores'
-        'promos promos coupons';
+        'main main main store'
+        'main main main seeMoreStores'
+        'promos promos coupons coupons';
 }
 #img-main{
     height: 250px;
@@ -13,27 +13,30 @@
      grid-area: main;
      border: 1px black solid;
 }
-.store{
+.card {
+    width: 100%;
+    text-align: center;
     height: 50px;
-}
-#seeMore{
-    height: 250px;
-    background-color: blue;
-    grid-area: seeMoreStores;
-    justify-content: center;
+    padding: 10px;
 }
 .links{
     text-align: center;
-    text-decoration-style: none;
+    text-decoration: none;
     color: aliceblue;
+}
+.links:hover {
+    color: black;
 }
 #promos{
     grid-area: promos;
-    height: 250px;
     background-color: red;
 }
 #coupons{
     grid-area: coupons;
-    height: 250px;
     background-color: green;
+}
+#seeMore{
+    grid-area: seeMoreStores;
+    height: 50px;
+    background-color: blue;
 }

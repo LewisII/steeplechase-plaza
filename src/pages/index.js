@@ -12,8 +12,8 @@ var data1 = require("../../_posts/businesses/churchStreetBar.json")
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <div id="body">
-      <div class="main">
+    <div className="body">
+      <div className="card" className="main">
         <h1>SteepleChase Plaza</h1>
         <p>
           Centuaries old gathering place to watch the race, join us at
@@ -23,9 +23,21 @@ const IndexPage = () => (
         <Image id="img-Main" />
       </div>
       <DirectoryMap class="store" store={[data1]} />
-      <div id="seeMore"><Link class="links"id="seeMoreLink"to="/businesses/">See More businesses</Link></div> />
-      <div id="promos" ><Link class="links"id="promosLink">See Local Events</Link></div>/>
-      <div id="coupons"><Link class="links" id="couponsLink">See Local coupons</Link></div> />
+      <div id="seeMore" className="card">
+        <Link className="links" id="seeMoreLink" to="/businesses/">
+          See More businesses
+        </Link>
+      </div>
+      <div id="promos" className="card">
+        <Link className="links" id="promosLink">
+          See Local Events
+        </Link>
+      </div>
+      <div id="coupons" className="card">
+        <Link className="links" id="couponsLink">
+          See Local coupons
+        </Link>
+      </div>
     </div>
   </Layout>
 )
