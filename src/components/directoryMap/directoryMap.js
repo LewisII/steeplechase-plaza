@@ -1,6 +1,5 @@
 import React from "react"
-import "./directoryMap.css"
-import StoreCard from "../storeCard/storeCard"
+import StoreCard from "src/components/storeCard/storeCard"
 
 class DirectoryMap extends React.Component {
   render() {

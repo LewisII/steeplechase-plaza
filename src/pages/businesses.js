@@ -3,6 +3,8 @@ import React from "react"
 import Layout from "../components/layout/layout"
 import SEO from "../components/seo"
 import DirectoryMap from "../components/directoryMap/directoryMap"
+import "src/components/directoryMap/directoryMap.css"
+import "src/components/storecard/storeCard.css"
 
 var data1 = require("../../_posts/businesses/churchStreetBar.json")
 var data2 = require("../../_posts/businesses/cosmic-liquor")
