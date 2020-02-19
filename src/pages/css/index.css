@@ -1,14 +1,16 @@
 
 .body {
+    width: 960px;
+    justify-content: center;
     display: grid;
     background-color: lightblue;
     grid-template-columns: 25% 25% 25% 25%;
     grid-template-areas: 
         'main main main store'
         'main main main seeMoreStores'
-        'promos promos coupons coupons';
+        'events events coupons coupons';
 }
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1100px) {
     /* Tablet and Smaller */
   .body {    
   display: flex;
@@ -16,11 +18,12 @@
     background-color: lightblue;
   }
   .card {
-      width: 85vw;
+      width: 85%;
   }
 }
-.main{
+#main{
      grid-area: main;
+     text-align: center;
      border: 1px black solid;
 }
 .card {
@@ -40,9 +43,12 @@
 .store {
     grid-area: store;
     width: auto;
+    border-left: 0px;
+    margin-left: 0px;
+    padding-left: 0px;
 }
-#promos{
-    grid-area: promos;
+#events{
+    grid-area: events;
     background-color: red;
 }
 #coupons{

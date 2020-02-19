@@ -1,8 +1,10 @@
 import React from "react"
 
-import Layout from "../components/layout/layout"
-import SEO from "../components/seo"
+import Layout from "src/components/layout/layout"
+import SEO from "src/components/seo"
 import DirectoryMap from "../components/directoryMap/directoryMap"
+
+/* CSS Imports */
 import "src/components/directoryMap/directoryMap.css"
 import "src/components/storecard/storeCard.css"
 

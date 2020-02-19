@@ -6,9 +6,9 @@ class StoreCard extends React.Component {
     var imagestr = "../../images/" + data.storeFrontImage.split("/")[2]
     return (
       <div className="storeTile">
-        <p>
-          <h2>{data.store}</h2>
-          <hr />
+        <h2>{data.store}</h2>
+        <hr />
+        <div className="storeData">
           <a href={data.googleMapsLink}>{data.location}</a>
           <br />
           Phone number: <a href={"tel:" + data.telephone}>{data.telephone}</a>
@@ -20,9 +20,9 @@ class StoreCard extends React.Component {
           <img
             src={imagestr}
             alt={"Store Front of " + data.store}
-            className="cardImage"
+            className="storeFrontImage"
           />
-        </p>
+        </div>
       </div>
     )
   }

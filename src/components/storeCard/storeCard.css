@@ -1,12 +1,24 @@
-.cardImage { 
-    display: flex;
-    justify-content: center;
+.storeFrontImage { 
     width: 95%;
-    height: auto;
+    bottom: 25px;
+    align-self: flex-end;
 }
 .storeTile{
     display: flex;
-    justify-content: center;
-    width: auto;
-    box-shadow: 20px 020px 20px whitesmoke;
+    flex-direction: column;
+    padding: 25px;
+    border: 1px solid black;
+  }
+  a:link {
+    text-decoration: none;
+    color: black;
+  }
+  a:hover {
+      color: blue;
+  }
+  .storeData{
+    height: 100%;
+    align-items: flex-end;
+    background-color: aquamarine;
+    padding: 5px;
   }
