@@ -1,7 +1,7 @@
 {
   "layout": "businessData",
   "store": "Church Street Bar",
-  "status": true,
+  "status": false,
   "location": "435 S Church St, St Peters, MO 63376",
   "googleMapsLink": "https://g.page/church-street-bar?share",
   "telephone": "(636)387-7778",
