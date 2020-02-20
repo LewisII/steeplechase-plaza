@@ -9,7 +9,7 @@ const webLinks = [
   { address: "/location/", title: "Where are we", status: "active" },
   { address: "/contact/", title: "Contact Us", status: "inactive" },
   { address: "/events/", title: "Events", status: "active" },
-  { address: "/coupons/", title: "Coupons", status: "active"}
+  { address: "/coupons/", title: "Coupons", status: "active" },
 ]
 
 const links = webLinks.map(site => {

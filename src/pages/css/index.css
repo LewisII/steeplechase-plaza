@@ -1,6 +1,6 @@
 
 .body {
-    width: 960px;
+    width: 100%;
     justify-content: center;
     display: grid;
     background-color: lightblue;
@@ -40,7 +40,7 @@
 .links:hover {
     color: black;
 }
-.store {
+#store {
     grid-area: store;
     width: auto;
     border-left: 0px;
