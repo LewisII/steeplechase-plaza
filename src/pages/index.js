@@ -7,7 +7,7 @@ import { Link } from "gatsby"
 import DirectoryMap from "src/components/directoryMap/directoryMap.js"
 /* CSS Imports */
 import "./css/index.css"
-import "src/components/storecard/storeCard.css"
+import "src/components/storeCard/storeCard.css"
 
 var data1 = require("../../_posts/businesses/churchStreetBar.json")
 
