@@ -1,6 +1,6 @@
 
 .navLi{
-    display: inline;
+    display: inline-block;
     border: 5px solid white;
     }
 
