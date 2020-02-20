@@ -1,8 +1,8 @@
 {
-  "name": "custom-gatsby-for-steeplechase-plaza",
+  "name": "steeplechase-plaza-custom-website-with-cms",
   "private": true,
   "description": "Website for SteepleChase-Plaza",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "Lewis Amos <Lewamos2@gmail.com>",
   "dependencies": {
     "gatsby": "^2.19.5",

@@ -10,6 +10,9 @@
         'main main main seeMoreStores'
         'events events coupons coupons';
 }
+#div--img-main {
+    max-width: 1200px;
+}
 @media only screen and (max-width: 1100px) {
     /* Tablet and Smaller */
   .body {    
