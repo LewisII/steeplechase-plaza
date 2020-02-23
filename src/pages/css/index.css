@@ -21,6 +21,10 @@
       width: 85%;
   }
 }
+#plaza{
+    width: 85%;
+    margin: auto;
+}
 #main{
      grid-area: main;
      text-align: center;

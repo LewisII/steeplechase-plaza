@@ -4,14 +4,13 @@ import Layout from "src/components/layout/layout"
 import Image from "src/components/image"
 import SEO from "src/components/seo"
 import { Link } from "gatsby"
-import DirectoryMap from "src/components/directoryMap/directoryMap.js"
 import RandomStore from "src/components/randomStore.js"
 /* CSS Imports */
 import "./css/index.css"
 import "src/components/storeCard/storeCard.css"
 
-var data1 = [require("../../_posts/businesses/churchStreetBar.json")]
-
+var data1 = require("../../_posts/businesses/churchStreetBar.json")
+var data = [data1];
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
@@ -23,9 +22,9 @@ const IndexPage = () => (
           SteepleChase
         </p>
         <p>435 S Church St, St Peters, MO 63376</p>
-        <Image id="img-Main" />
+        <div id="plaza"><Image id="img-Main" /></div>
       </div>
-      <div id="randomStore"><RandomStore store={data1} /></div>
+      <div id="randomStore"><RandomStore store={data} /></div>
       <div id="seeMore" className="card">
         <Link className="links" id="seeMoreLink" to="/businesses/">
           See More businesses
