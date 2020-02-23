@@ -5,6 +5,7 @@ import Image from "src/components/image"
 import SEO from "src/components/seo"
 import { Link } from "gatsby"
 import DirectoryMap from "src/components/directoryMap/directoryMap.js"
+import RandomStore from "src/components/randomStore.js"
 /* CSS Imports */
 import "./css/index.css"
 import "src/components/storeCard/storeCard.css"
@@ -24,7 +25,7 @@ const IndexPage = () => (
         <p>435 S Church St, St Peters, MO 63376</p>
         <Image id="img-Main" />
       </div>
-      <div id="randomStore"><DirectoryMap store={data1} /></div>
+      <div id="randomStore"><RandomStore store={data1} /></div>
       <div id="seeMore" className="card">
         <Link className="links" id="seeMoreLink" to="/businesses/">
           See More businesses
