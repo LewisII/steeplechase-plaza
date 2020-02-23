@@ -9,7 +9,7 @@ import DirectoryMap from "src/components/directoryMap/directoryMap.js"
 import "./css/index.css"
 import "src/components/storeCard/storeCard.css"
 
-var data1 = require("../../_posts/businesses/churchStreetBar.json")
+var data1 = [require("../../_posts/businesses/churchStreetBar.json")]
 
 const IndexPage = () => (
   <Layout>
@@ -24,7 +24,7 @@ const IndexPage = () => (
         <p>435 S Church St, St Peters, MO 63376</p>
         <Image id="img-Main" />
       </div>
-      <DirectoryMap id="store" store={[data1]} />
+      <div id="randomStore"><DirectoryMap store={data1} /></div>
       <div id="seeMore" className="card">
         <Link className="links" id="seeMoreLink" to="/businesses/">
           See More businesses
