@@ -21,10 +21,6 @@ collections:
       - {label: Telephone, name: telephone, widget: "string", required: false}
       - {label: Website, name: website, widget: "string", required: false}
       - {label: Storefront image, name: storeFrontImage, widget: "image", required: false}
-      - label: "Gallery"
-        name: "galleryImages"
-        widget: "list"
-        field: {label: Image, name: image, widget: image}
       - {label: info, name: info, widget: "string", required: false}
   
   - name: "blog" # Used in routes, e.g., /admin/collections/blog
