@@ -21,20 +21,23 @@
       width: 85%;
   }
 }
-#plaza{
+#plazaImage{
     width: 85%;
     margin: auto;
+    margin-bottom: 2rem;
+    max-width: 1200px;
 }
 #main{
      grid-area: main;
      text-align: center;
-     border: 1px black solid;
 }
 .card {
     width: 100%;
     text-align: center;
+    margin-bottom: 0rem;
     height: 50px;
     padding: 10px;
+    align-self: end;
 }
 .links{
     text-align: center;
@@ -46,12 +49,6 @@
 }
 #randomStore {
     grid-area: store;
-    background-color: blueviolet;
-    width: auto;
-    height: auto;
-    border-left: 0px;
-    margin-left: 0px;
-    padding-left: 0px;
 }
 #events{
     grid-area: events;

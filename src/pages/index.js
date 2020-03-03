@@ -22,7 +22,7 @@ const IndexPage = () => (
           SteepleChase
         </p>
         <p>435 S Church St, St Peters, MO 63376</p>
-        <div id="plaza"><Image id="img-Main" /></div>
+        <div id="plazaImage"><Image id="img-Main" /></div>
       </div>
       <div id="randomStore"><RandomStore store={data} /></div>
       <div id="seeMore" className="card">
