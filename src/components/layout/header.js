@@ -9,6 +9,8 @@ const Header = ({ siteTitle }) => (
       marginBottom: `1.45rem`,
     }}
   >
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+
     <div
       style={{
         margin: `0 auto`,
