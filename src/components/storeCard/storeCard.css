@@ -1,7 +1,7 @@
 .storeFrontImage { 
-    width: 95%;
-    bottom: 25px;
+    max-width: 95%;
     align-self: flex-end;
+    max-height: 250px;
 }
 .storeTile{
     display: flex;
@@ -19,6 +19,8 @@
   .storeData{
     height: 100%;
     align-items: flex-end;
-    background-color: aquamarine;
     padding: 5px;
+  }
+  .storeImage{
+    height: 15rem;
   }

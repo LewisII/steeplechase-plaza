@@ -7,7 +7,6 @@ import { Link } from "gatsby"
 import RandomStore from "src/components/randomStore.js"
 /* CSS Imports */
 import "./css/index.css"
-import "src/components/storeCard/storeCard.css"
 
 var data1 = require("../../_posts/businesses/churchStreetBar.json")
 var data = [data1];

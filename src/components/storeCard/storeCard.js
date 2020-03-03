@@ -17,6 +17,8 @@ class StoreCard extends React.Component {
           <br />
           {data.info}
           <br />
+        </div>
+        <div className="storeImage">
           <img
             src={imagestr}
             alt={"Store Front of " + data.store}
