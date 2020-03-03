@@ -5,8 +5,6 @@ site_url: https://steeplechaseplaza.com
 media_folder: static/images/
 public_folder: static/images/
 
-publish_mode: editorial_workflow
-
 collections:
   - name: "business"
     label: "Business" # Used in the UI
@@ -14,7 +12,6 @@ collections:
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     identifier_field: store
-    extension: json
     fields: 
       - {label: "Layout", name: "layout", widget: "hidden", default: "businessData"}
       - {label: store, name: store, widget: "string"}
