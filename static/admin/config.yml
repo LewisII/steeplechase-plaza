@@ -47,7 +47,7 @@ collections:
     folder: "_posts/coupons"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
-    field:
+    fields:
       - {label: "Layout", name: "layout", widget: "hidden", default: "coupon"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
