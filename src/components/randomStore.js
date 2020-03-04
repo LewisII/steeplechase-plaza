@@ -17,6 +17,7 @@ class RandomStore extends React.Component {
                   }
                 }
                 limit: 1
+                skip: 2
               ) {
                 edges {
                   node {
@@ -36,11 +37,13 @@ class RandomStore extends React.Component {
               }
             }
           `}
-        render={data => ( data.allMarkdownRemark.edges.map(({ node }) => (
-                <StoreCard store={node.frontmatter} />
-              )))}/>
-        </div>
-            )
+          render={data => (
+              data.allMarkdownRemark.edges.map(({node}) => (
+              <StoreCard store={node.frontmatter} />) )
+          )}
+        />
+      </div>
+    )
         }
 }
 
