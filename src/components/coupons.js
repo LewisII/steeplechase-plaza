@@ -21,9 +21,9 @@ const ComponentName = () => (
       }
     `}
     render={data => (
-      <div>
+      <div style={{ display: `flex` }}>
         {data.allMarkdownRemark.edges.map(({ node }) => (
-          <div>
+          <div style={{ border: `.25rem solid black` }}>
             <p>{node.frontmatter.title}</p>
             <p>{node.frontmatter.info}</p>
             <img
