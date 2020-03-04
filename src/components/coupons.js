@@ -13,7 +13,7 @@ const ComponentName = () => (
               frontmatter {
                 info
                 title
-                couponImage
+                image
               }
             }
           }
