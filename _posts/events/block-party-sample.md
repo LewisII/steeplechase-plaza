@@ -1,5 +1,6 @@
 ---
 title: Block Party Sample
+layout: event
 date: 2020-03-04T06:05:17.474Z
 info: |-
   <!--StartFragment-->

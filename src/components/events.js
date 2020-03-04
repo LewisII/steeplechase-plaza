@@ -6,7 +6,7 @@ const Events = () => (
     query={graphql`
       {
         allMarkdownRemark(
-          filter: { frontmatter: { layout: { eq: "events" } } }
+          filter: { frontmatter: { layout: { eq: "event" } } }
         ) {
           edges {
             node {
