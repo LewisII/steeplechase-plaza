@@ -35,3 +35,15 @@ collections:
       - {label: "End Date", name: "end date", widget: "date"}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Coupon Image", name: "coupon image", widget: "image", required: false}
+
+  - name: "events"
+    label: "Events"
+    folder: "_posts/events"
+    create: true
+    slug: {{slug}}
+    fields:
+      - {label: "Layout", name: "layout", widget: "hidden", default: "events"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Start Date", name: "start date", widget: "date"}
+      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Event Image", name: "event image", widget: "image", required: false}
