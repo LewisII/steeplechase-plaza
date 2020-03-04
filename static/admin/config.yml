@@ -36,8 +36,8 @@ collections:
       - {label: "Info", name: "info", widget: "markdown"}
       - {label: "Coupon Image", name: "image", widget: "image", required: false}
 
-  - name: "events"
-    label: "Events"
+  - name: "events" #url
+    label: "Events" #UI
     folder: "_posts/events"
     create: true
     slug: "{{slug}}"

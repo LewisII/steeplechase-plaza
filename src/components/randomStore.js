@@ -37,14 +37,15 @@ class RandomStore extends React.Component {
               }
             }
           `}
-          render={data => (
-              data.allMarkdownRemark.edges.map(({node}) => (
-              <StoreCard store={node.frontmatter} />) )
-          )}
+          render={data =>
+            data.allMarkdownRemark.edges.map(({ node }) => (
+              <StoreCard store={node.frontmatter} />
+            ))
+          }
         />
       </div>
     )
-        }
+  }
 }
 
 export default RandomStore

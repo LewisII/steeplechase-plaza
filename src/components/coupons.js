@@ -20,15 +20,20 @@ const ComponentName = () => (
         }
       }
     `}
-    render={data => <div>
-        {data.allMarkdownRemark.edges.map(({node}) =>
-        <div>
-            <p>{node.frontmatter.title}</p>    
+    render={data => (
+      <div>
+        {data.allMarkdownRemark.edges.map(({ node }) => (
+          <div>
+            <p>{node.frontmatter.title}</p>
             <p>{node.frontmatter.info}</p>
-            <img src={node.frontmatter.couponImage}
-            alt={node.frontmatter.couponImage}/>
-        </div>)}
-    </div>}
+            <img
+              src={node.frontmatter.couponImage}
+              alt={node.frontmatter.couponImage}
+            />
+          </div>
+        ))}
+      </div>
+    )}
   ></StaticQuery>
 )
 
