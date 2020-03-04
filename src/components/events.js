@@ -1,7 +1,7 @@
 import React from "react"
 import { StaticQuery, graphql } from "gatsby"
 
-const ComponentName = () => (
+const Events = () => (
   <StaticQuery
     query={graphql`
       {
@@ -37,4 +37,4 @@ const ComponentName = () => (
   ></StaticQuery>
 )
 
-export default ComponentName
+export default Events
