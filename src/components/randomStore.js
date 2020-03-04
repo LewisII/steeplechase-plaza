@@ -3,7 +3,7 @@ import StoreCard from "src/components/storeCard/storeCard"
 
 class RandomStore extends React.Component {
   render() {
-    var state = this.props.store;
+    var state = this.props.store
     return (
       <div>
         {state.map(data => {

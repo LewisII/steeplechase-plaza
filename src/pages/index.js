@@ -9,7 +9,7 @@ import RandomStore from "src/components/randomStore.js"
 import "./css/index.css"
 
 var data1 = require("../../_posts/businesses/churchStreetBar.json")
-var data = [data1];
+var data = [data1]
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
@@ -21,9 +21,13 @@ const IndexPage = () => (
           SteepleChase
         </p>
         <p>435 S Church St, St Peters, MO 63376</p>
-        <div id="plazaImage"><Image id="img-Main" /></div>
+        <div id="plazaImage">
+          <Image id="img-Main" />
+        </div>
       </div>
-      <div id="randomStore"><RandomStore store={data} /></div>
+      <div id="randomStore">
+        <RandomStore store={data} />
+      </div>
       <div id="seeMore" className="card">
         <Link className="links" id="seeMoreLink" to="/businesses/">
           See More businesses

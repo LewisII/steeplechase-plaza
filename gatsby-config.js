@@ -18,14 +18,16 @@ module.exports = {
     },
     `gatsby-plugin-netlify-cms`,
     `gatsby-plugin-react-helmet`,
-    { //images for qraph ql queries
+    {
+      //images for qraph ql queries
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
         path: `${__dirname}/src/images`,
       },
     },
-    { //blog posts for querying with graphql
+    {
+      //blog posts for querying with graphql
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `markdown-pages`,

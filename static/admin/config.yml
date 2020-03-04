@@ -10,7 +10,7 @@ collections:
     label: "Business" # Used in the UI
     folder: "_posts/businesses" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
-    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    slug: "{{slug}}" # Filename template
     identifier_field: store
     fields: 
       - {label: "Layout", name: "layout", widget: "hidden", default: "businessData"}

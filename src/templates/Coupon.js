@@ -22,13 +22,12 @@ export default function Coupon({
 
 export const pageQuery = graphql`
   query MyQuery {
-  allMarkdownRemark {
-    edges {
-      node {
-        html
+    allMarkdownRemark {
+      edges {
+        node {
+          html
+        }
       }
     }
   }
-}
-
 `
