@@ -1,18 +1,36 @@
 import React from "react"
 import StoreCard from "src/components/storeCard/storeCard"
+import { StaticQuery, graphql } from "gatsby"
 
 class RandomStore extends React.Component {
   render() {
-    var state = this.props.store
     return (
       <div>
-        {state.map(data => {
-          if (data.status) {
-            return <StoreCard store={data} />
-          } else {
-            return null
-          }
-        })}
+        <StaticQuery
+          query={graphql`
+            {
+              markdownRemark(
+                frontmatter: {
+                  layout: { eq: "businessData" }
+                  status: { eq: true }
+                }
+              ) {
+                frontmatter {
+                  title
+                  website
+                  telephone
+                  storeFrontImage
+                  store
+                  status
+                  location
+                  info
+                  googleMapsLink
+                }
+              }
+            }
+          `}
+          render={data => <StoreCard store="data"/>}
+        ></StaticQuery>
       </div>
     )
   }

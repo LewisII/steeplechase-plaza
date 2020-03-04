@@ -8,8 +8,6 @@ import RandomStore from "src/components/randomStore.js"
 /* CSS Imports */
 import "./css/index.css"
 
-var data1 = require("../../_posts/businesses/churchStreetBar.json")
-var data = [data1]
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
@@ -26,7 +24,7 @@ const IndexPage = () => (
         </div>
       </div>
       <div id="randomStore">
-        <RandomStore store={data} />
+        <RandomStore />
       </div>
       <div id="seeMore" className="card">
         <Link className="links" id="seeMoreLink" to="/businesses/">

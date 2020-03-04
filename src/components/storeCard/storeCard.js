@@ -1,4 +1,5 @@
 import React from "react"
+import "src/components/storeCard/storeCard.css"
 
 class StoreCard extends React.Component {
   render() {
