@@ -45,6 +45,5 @@ collections:
       - {label: "Layout", name: "layout", widget: "hidden", default: "event"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Date", name: "date", widget: "date"}
-      - {label: "Time", name: "time", widget: "time"}
       - {label: "Info", name: "info", widget: "markdown"}
       - {label: "Event Image", name: "image", widget: "image", required: false}
