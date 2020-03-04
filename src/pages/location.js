@@ -30,7 +30,6 @@ const LocationPage = () => (
           allowfullscreen=""
         />
       </div>
-        
     </div>
   </Layout>
 )

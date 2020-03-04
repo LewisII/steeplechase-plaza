@@ -9,30 +9,39 @@ class RandomStore extends React.Component {
         <StaticQuery
           query={graphql`
             {
-              markdownRemark(
-                frontmatter: {
-                  layout: { eq: "businessData" }
-                  status: { eq: true }
+              allMarkdownRemark(
+                filter: {
+                  frontmatter: {
+                    layout: { eq: "businessData" }
+                    status: { eq: true }
+                  }
                 }
+                limit: 1
               ) {
-                frontmatter {
-                  title
-                  website
-                  telephone
-                  storeFrontImage
-                  store
-                  status
-                  location
-                  info
-                  googleMapsLink
+                edges {
+                  node {
+                    frontmatter {
+                      googleMapsLink
+                      info
+                      layout
+                      location
+                      store
+                      storeFrontImage
+                      telephone
+                      title
+                      website
+                    }
+                  }
                 }
               }
             }
           `}
-          render={data => <StoreCard store="data"/>}
-        ></StaticQuery>
-      </div>
-    )
-  }
+        render={data => ( data.allMarkdownRemark.edges.map(({ node }) => (
+                <StoreCard store={node.frontmatter} />
+              )))}/>
+        </div>
+            )
+        }
 }
+
 export default RandomStore
