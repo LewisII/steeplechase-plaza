@@ -34,7 +34,7 @@ collections:
       - {label: "Start Date", name: "startDate", widget: "date"}
       - {label: "End Date", name: "endDate", widget: "date", required: false}
       - {label: "Info", name: "info", widget: "markdown"}
-      - {label: "Coupon Image", name: "couponImage", widget: "image", required: false}
+      - {label: "couponImage", name: "couponImage", widget: "image", required: false}
 
   - name: "events"
     label: "Events"
@@ -47,4 +47,4 @@ collections:
       - {label: "Date", name: "date", widget: "date"}
       - {label: "Time", name: "time", widget: "time"}
       - {label: "Info", name: "info", widget: "markdown"}
-      - {label: "Event Image", name: "eventImage", widget: "image", required: false}
+      - {label: "eventImage", name: "eventImage", widget: "image", required: false}
