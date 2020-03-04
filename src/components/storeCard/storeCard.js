@@ -3,7 +3,6 @@ import React from "react"
 class StoreCard extends React.Component {
   render() {
     var data = this.props.store
-    var imagestr = "../../images/" + data.storeFrontImage.split("/")[2]
     return (
       <div className="storeTile">
         <h2>{data.store}</h2>
@@ -20,7 +19,7 @@ class StoreCard extends React.Component {
         </div>
         <div className="storeImage">
           <img
-            src={imagestr}
+            src={"../../images/" + data.storeFrontImage.split("/")[2]}
             alt={"Store Front of " + data.store}
             className="storeFrontImage"
           />

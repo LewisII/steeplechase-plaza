@@ -7,18 +7,31 @@ const gmapsurl =
 
 const LocationPage = () => (
   <Layout>
-    <SEO title="Page two" />
-    <h1>Where we are Located</h1>
-    <p>We are located at 435 S Church St, St Peters, MO 63376</p>
-    <p>The cross roads of Mexico road and S Church Street</p>
-    <iframe
-      title="iframe_googleMaps"
-      src={gmapsurl}
-      width="600"
-      height="450"
-      frameborder="0"
-      allowfullscreen=""
-    ></iframe>
+    <SEO title="Location Page" />
+    <div
+      id="locationPage"
+      style={{
+        display: `flex`,
+        flexDirection: `column`,
+        justifyContent: `center`,
+        textAlign: `center`,
+      }}
+    >
+      <h1>Where we are Located</h1>
+      <p>We are located at 435 S Church St, St Peters, MO 63376</p>
+      <p>The cross roads of Mexico road and S Church Street</p>
+      <div>
+        <iframe
+          title="iframe_googleMaps"
+          src={gmapsurl}
+          width="600"
+          height="600"
+          frameborder="0"
+          allowfullscreen=""
+        />
+      </div>
+        
+    </div>
   </Layout>
 )
 
