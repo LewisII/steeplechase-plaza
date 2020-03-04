@@ -13,7 +13,7 @@ const ComponentName = () => (
               frontmatter {
                 info
                 title
-                coupon_image
+                couponImage
               }
             }
           }
@@ -25,8 +25,8 @@ const ComponentName = () => (
         <div>
             <p>{node.frontmatter.title}</p>    
             <p>{node.frontmatter.info}</p>
-            <img src={node.frontmatter.coupon_image}
-            alt={node.frontmatter.coupon_image}/>
+            <img src={node.frontmatter.couponImage}
+            alt={node.frontmatter.couponImage}/>
         </div>)}
     </div>}
   ></StaticQuery>

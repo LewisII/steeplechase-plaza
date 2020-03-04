@@ -13,7 +13,7 @@ const ComponentName = () => (
               frontmatter {
                 info
                 title
-                event_image
+                eventImage
               }
             }
           }
@@ -27,8 +27,8 @@ const ComponentName = () => (
             <p>{node.frontmatter.title}</p>
             <p>{node.frontmatter.info}</p>
             <img
-              src={node.frontmatter.event_image}
-              alt={node.frontmatter.event_image}
+              src={node.frontmatter.eventImage}
+              alt={node.frontmatter.eventImage}
             />
           </div>
         ))}

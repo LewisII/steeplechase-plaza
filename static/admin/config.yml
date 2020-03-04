@@ -47,4 +47,4 @@ collections:
       - {label: "Date", name: "date", widget: "date"}
       - {label: "Time", name: "time", widget: "time"}
       - {label: "Info", name: "info", widget: "markdown"}
-      - {label: "Event Image", name: "event image", widget: "image", required: false}
+      - {label: "Event Image", name: "eventImage", widget: "image", required: false}
