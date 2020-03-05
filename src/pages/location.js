@@ -25,8 +25,8 @@ const LocationPage = () => (
           title="iframe_googleMaps"
           src={gmapsurl}
           width="600"
-          height="600"
-          frameborder="0"
+          height="600px"
+          frameborder=""
           allowfullscreen=""
         />
       </div>

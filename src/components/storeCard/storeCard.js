@@ -1,5 +1,5 @@
 import React from "react"
-import "src/components/storeCard/storeCard.css"
+import "src/styles/storeCard.css"
 
 class StoreCard extends React.Component {
   render() {

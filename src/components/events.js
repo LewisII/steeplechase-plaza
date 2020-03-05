@@ -24,7 +24,7 @@ const Events = () => (
     render={data => (
       <div style={{display: `flex`}}>
         {data.allMarkdownRemark.edges.map(({ node }) => (
-          <div className="event" style={{border: `.25rem solid black`}}>
+          <div className="" style={{border: `.125rem solid black`, margin: `1rem`, padding: `1rem`}}>
             <p>{node.frontmatter.title}</p>
             <p>{node.frontmatter.date}</p>
             <p>{node.frontmatter.info}</p>

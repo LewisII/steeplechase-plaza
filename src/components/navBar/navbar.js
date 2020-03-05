@@ -1,7 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 
-import "./navbar.css"
+import "src/styles/navbar.css"
 
 const webLinks = [
   { address: "/", title: "Home", status: "active" },
