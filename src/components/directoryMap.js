@@ -1,7 +1,7 @@
 import React from "react"
 import { StaticQuery, graphql } from "gatsby"
 import StoreCard from "src/components/storeCard/storeCard"
-
+import "src/styles/directoryMap.css"
 class DirectoryMap extends React.Component {
   render() {
     return (
@@ -33,15 +33,7 @@ class DirectoryMap extends React.Component {
           }
         `}
         render={data => (
-          <div
-            id="directoryMap"
-            style={{
-              display: `grid`,
-              gridTemplateColumns: `repeat(auto-fit, minmax(350px, 1fr))`,
-              gridGap: `1rem`,
-              margin: `2.5rem`,
-            }}
-          >
+          <div className="directoryMap" >
             {data.allMarkdownRemark.edges.map(({ node }) => (
               <StoreCard store={node.frontmatter} />
             ))}

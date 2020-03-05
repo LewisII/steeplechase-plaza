@@ -1,0 +1,13 @@
+@media screen and (max-width: 600px) {
+.directoryMap{
+    margin: none;
+    display: flex;
+    flex-direction: column;
+}
+}
+
+.directoryMap {
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+   grid-gap: 1rem;
+}

@@ -7,7 +7,7 @@ import DirectoryMap from "../components/directoryMap"
 const BusinessesPage = () => (
   <Layout>
     <SEO title="Businesses" />
-    <h1>Business Directory</h1>
+    <h1 style={{textAlign: `center`,}}>Business Directory</h1>
     <DirectoryMap />
   </Layout>
 )
