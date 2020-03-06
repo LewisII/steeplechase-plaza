@@ -1,6 +1,6 @@
 import React from "react"
 import { StaticQuery, graphql } from "gatsby"
-import StoreCard from "src/components/storeCard/storeCard"
+import StoreCard from "src/components/storeCard"
 import "src/styles/directoryMap.css"
 class DirectoryMap extends React.Component {
   render() {

@@ -1,5 +1,5 @@
 import React from "react"
-import StoreCard from "src/components/storeCard/storeCard"
+import StoreCard from "src/components/storeCard"
 import { StaticQuery, graphql } from "gatsby"
 
 class RandomStore extends React.Component {
@@ -16,8 +16,6 @@ class RandomStore extends React.Component {
                     status: { eq: true }
                   }
                 }
-                limit: 1
-                skip: 2
               ) {
                 edges {
                   node {
@@ -37,12 +35,10 @@ class RandomStore extends React.Component {
               }
             }
           `}
-          render={data =>
-            data.allMarkdownRemark.edges.map(({ node }) => (
-              <StoreCard store={node.frontmatter} />
-            ))
-          }
-        />
+          render={data => 
+            <StoreCard store={[...data.allMarkdownRemark.edges][Math.floor(Math.random() * 7)].node.frontmatter} /> //Math.floor(Math.random() * 7) evalutes a random store to show remove later to change based on more stores
+    }
+    />
       </div>
     )
   }

@@ -6,7 +6,7 @@ import SEO from "src/components/seo"
 import { Link } from "gatsby"
 import RandomStore from "src/components/randomStore.js"
 /* CSS Imports */
-import "./css/index.css"
+import "src/styles/index.css"
 
 const IndexPage = () => (
   <Layout>
