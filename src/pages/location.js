@@ -20,7 +20,13 @@ const LocationPage = () => (
       <h1>Where we are Located</h1>
       <p>We are located at 435 S Church St, St Peters, MO 63376</p>
       <p>The cross roads of Mexico road and S Church Street</p>
-      <div style={{width:`90%=vmin`,height:`90vmin`,justifyContent:`center`}}>
+      <div
+        style={{
+          width: `90%=vmin`,
+          height: `90vmin`,
+          justifyContent: `center`,
+        }}
+      >
         <iframe
           title="iframe_googleMaps"
           src={gmapsurl}

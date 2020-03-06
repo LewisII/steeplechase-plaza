@@ -33,7 +33,7 @@ class DirectoryMap extends React.Component {
           }
         `}
         render={data => (
-          <div className="directoryMap" >
+          <div className="directoryMap">
             {data.allMarkdownRemark.edges.map(({ node }) => (
               <StoreCard store={node.frontmatter} />
             ))}

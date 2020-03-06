@@ -23,7 +23,13 @@ const ComponentName = () => (
     render={data => (
       <div style={{ display: `flex` }}>
         {data.allMarkdownRemark.edges.map(({ node }) => (
-          <div style={{ border: `.125rem solid black`, margin: `1rem`, padding:`.5rem` }}>
+          <div
+            style={{
+              border: `.125rem solid black`,
+              margin: `1rem`,
+              padding: `.5rem`,
+            }}
+          >
             <p>{node.frontmatter.title}</p>
             <p>{node.frontmatter.info}</p>
             <img
