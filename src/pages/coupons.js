@@ -1,7 +1,7 @@
 import React from "react"
 import SEO from "../components/seo"
 import Coupons from "src/components/coupons.js"
-import Layout from "../components/layout/layout"
+import Layout from "../components/layout"
 
 const CouponsPage = () => (
   <Layout>

@@ -1,6 +1,6 @@
 import React from "react"
 
-import Layout from "src/components/layout/layout"
+import Layout from "src/components/layout"
 import Image from "src/components/image"
 import SEO from "src/components/seo"
 import { Link } from "gatsby"

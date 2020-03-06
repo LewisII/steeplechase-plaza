@@ -1,6 +1,6 @@
 import React from "react"
 
-import Layout from "../components/layout/layout"
+import Layout from "../components/layout"
 import SEO from "../components/seo"
 const gmapsurl =
   "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d971.516504950114!2d-90.63076252106626!3d38.78992207012024!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87ded7081c1a85b5%3A0x57d258fe3edac867!2sSteepleChase%20Plaza!5e1!3m2!1sen!2sus!4v1579383911159!5m2!1sen!2sus"

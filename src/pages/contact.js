@@ -1,4 +1,4 @@
-import Layout from "../components/layout/layout"
+import Layout from "src/components/layout"
 import React from "react"
 import SEO from "../components/seo"
 

@@ -1,6 +1,6 @@
 import React from "react"
 
-import Layout from "src/components/layout/layout"
+import Layout from "src/components/layout"
 import SEO from "src/components/seo"
 import DirectoryMap from "../components/directoryMap"
 
