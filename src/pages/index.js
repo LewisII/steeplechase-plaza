@@ -23,13 +23,15 @@ const IndexPage = () => (
           <Image id="img-Main" />
         </div>
       </div>
-      <div id="randomStore">
-        <RandomStore />
-      </div>
-      <div id="seeMore" className="card">
-        <Link className="links" id="seeMoreLink" to="/businesses/">
-          See More businesses
-        </Link>
+      <div class="side-bar">
+        <div id="randomStore">
+          <RandomStore />
+        </div>
+        <div id="seeMore" className="card">
+          <Link className="links" id="seeMoreLink" to="/businesses/">
+            See More businesses
+          </Link>
+        </div>
       </div>
       <div id="events" className="card">
         <Link className="links" id="eventsLink" to="/events/">

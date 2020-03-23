@@ -1,66 +1,65 @@
-
 .body {
-    width: 100%;
-    justify-content: center;
-    display: grid;
-    background-color: lightblue;
-    grid-template-columns: 25% 25% 25% 25%;
-    grid-template-areas: 
-        'main main main store'
-        'main main main seeMoreStores'
-        'events events coupons coupons';
+  width: 100%;
+  justify-content: center;
+  display: grid;
+  background-color: lightblue;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-areas:
+    "main main main side-bar"
+    "main main main side-bar"
+    "events events coupons coupons";
 }
 @media only screen and (max-width: 768px) {
-    /* Tablet and Smaller */
-  .body {    
-  display: flex;
-  flex-direction: column;
+  /* Tablet and Smaller */
+  .body {
+    display: flex;
+    flex-direction: column;
     background-color: lightblue;
   }
   .card {
-      width: 85%;
+    width: 85%;
   }
 }
-#plazaImage{
-    width: 85%;
-    margin: auto;
-    margin-bottom: 2rem;
-    max-width: 1200px;
+#plazaImage {
+  width: 85%;
+  margin: auto;
+  margin-bottom: 2rem;
+  max-width: 1200px;
 }
-#main{
-     grid-area: main;
-     margin: 2rem;
-     text-align: center;
+#main {
+  grid-area: main;
+  margin: 2rem;
+  text-align: center;
+}
+.side-bar {
+  grid-area: side-bar;
 }
 .card {
-    width: 100%;
-    text-align: center;
-    margin-bottom: 0rem;
-    height: 50px;
-    padding: 10px;
-    align-self: end;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 0rem;
+  height: 50px;
+  padding: 10px;
+  align-self: end;
 }
-.links{
-    text-align: center;
-    text-decoration: none;
-    color: aliceblue;
+.links {
+  text-align: center;
+  text-decoration: none;
+  color: aliceblue;
 }
 .links:hover {
-    color: black;
+  color: black;
 }
-#randomStore {
-    grid-area: store;
+#events {
+  grid-area: events;
+  background-color: red;
 }
-#events{
-    grid-area: events;
-    background-color: red;
+#coupons {
+  grid-area: coupons;
+  background-color: green;
 }
-#coupons{
-    grid-area: coupons;
-    background-color: green;
-}
-#seeMore{
-    grid-area: seeMoreStores;
-    height: 50px;
-    background-color: blue;
+#seeMore {
+  grid-area: seeMoreStores;
+  height: 50px;
+  background-color: blue;
 }

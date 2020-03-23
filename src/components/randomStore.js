@@ -35,10 +35,18 @@ class RandomStore extends React.Component {
               }
             }
           `}
-          render={data => 
-            <StoreCard store={[...data.allMarkdownRemark.edges][Math.floor(Math.random() * 7)].node.frontmatter} /> //Math.floor(Math.random() * 7) evalutes a random store to show remove later to change based on more stores
-    }
-    />
+          render={
+            data => (
+              <StoreCard
+                store={
+                  [...data.allMarkdownRemark.edges][
+                    Math.floor(Math.random() * 7)
+                  ].node.frontmatter
+                }
+              />
+            ) //Math.floor(Math.random() * 7) evalutes a random store to show remove later to change based on more stores
+          }
+        />
       </div>
     )
   }

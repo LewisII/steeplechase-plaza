@@ -7,7 +7,6 @@ class StoreCard extends React.Component {
     return (
       <div className="storeTile">
         <h2>{data.store}</h2>
-        <hr />
         <div className="storeData">
           <a href={data.googleMapsLink}>{data.location}</a>
           <br />
@@ -18,6 +17,7 @@ class StoreCard extends React.Component {
           {data.info}
           <br />
         </div>
+        <div className="Socials" />
         <div className="storeImage">
           <img
             src={"../../images/" + data.storeFrontImage.split("/")[2]}
