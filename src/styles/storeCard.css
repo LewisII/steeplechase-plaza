@@ -9,6 +9,17 @@
   padding: 25px;
   border: 1px solid black;
 }
+@media only screen and (max-width: 768px) {
+  /* Tablet and Smaller */
+  .storeData {
+    text-align: left;
+  }
+  .storeTile {
+    border: none;
+    width: 35rem;
+    text-align: center;
+  }
+}
 a:link {
   text-decoration: none;
   color: black;
